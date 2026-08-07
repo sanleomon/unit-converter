@@ -15,6 +15,7 @@ body {
 }
 
 #converter-title{
+    font-family: "Inter", sans-serif;
     text-align: center;
     padding-top: 30px;
 }
@@ -37,4 +38,15 @@ input::-webkit-inner-spin-button {
     font-family: "Inter", sans-serif;
     font-size: 50px;
     font-weight: bolder;
+}
+
+#convert-button {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 117px;
+    height: 42px;
+    color: #3D3D3D;
+    padding: 10px;
+    font-size: 16px;
 }
