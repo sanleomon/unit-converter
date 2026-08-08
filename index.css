@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: black;
+    height: 729px;
 }
 
 .app {
@@ -17,7 +18,11 @@ body {
 #converter-title{
     font-family: "Inter", sans-serif;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
+    font-size: 28px;
+    font-weight: bolder;
+    height: 38px;
+    width: 448px;
 }
 
 input::-webkit-outer-spin-button,
@@ -36,7 +41,7 @@ input::-webkit-inner-spin-button {
     text-align: center;
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 50px;
+    font-size: 58px;
     font-weight: bolder;
 }
 
@@ -49,4 +54,37 @@ input::-webkit-inner-spin-button {
     color: #3D3D3D;
     padding: 10px;
     font-size: 16px;
+    font-weight: medium;
+}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4F4;
+    height: 444px;
+    width: 550px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+    gap: 29px;
+}
+
+.card {
+    width: 500px;
+    height: 108px;
+    background-color: white;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5A537B;
+}
+
+.card-value {
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
 }
