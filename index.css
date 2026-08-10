@@ -31,7 +31,7 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
-#number {
+#input-el {
     border: 3px solid #B295FF;
     border-radius: 5px;
     height: 83px;
@@ -55,6 +55,7 @@ input::-webkit-inner-spin-button {
     padding: 10px;
     font-size: 16px;
     font-weight: medium;
+    cursor: pointer;
 }
 
 .results {
