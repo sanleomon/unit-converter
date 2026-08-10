@@ -1,19 +1,71 @@
-# Getting Started
-Install the dependencies and run the project
+# 🔄 Unit Converter
+
+A simple metric/imperial unit converter built with **HTML**, **CSS**, and **JavaScript** as part of the Scrimba Frontend Developer Career Path.
+
+## 📷 Preview
+
+![Unit Converter Preview](images/preview.png)
+
+## 🚀 Features
+
+- Convert between meters and feet.
+- Convert between liters and gallons.
+- Convert between kilograms and pounds.
+- Display conversion results rounded to three decimal places.
+- Handle decimal input values.
+- Validate empty input before performing conversions.
+
+## 🛠️ Technologies
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Vite
+
+## 🎯 Learning Goals
+
+This project was created to practice:
+
+- DOM manipulation
+- Event handling
+- Functions and code reuse
+- Template literals
+- Number formatting
+- Input validation
+- CSS Flexbox
+
+## ▶️ Live Demo
+
+Coming soon...
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sanleomon/unit-converter.git
 ```
+
+Open the project folder:
+
+```bash
+cd unit-converter
+```
+
+Install the dependencies:
+
+```bash
 npm install
-npm start
 ```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+Run the development server:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+```bash
+npm run dev
+```
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## 📚 About
 
-Happy Coding!
+This project was built as part of the **Scrimba Frontend Developer Career Path**.
+
+The user interface was recreated from a provided Figma design, and the unit conversion functionality was implemented using vanilla JavaScript.
