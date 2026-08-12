@@ -36,7 +36,7 @@ This project was created to practice:
 
 ## ▶️ Live Demo
 
-Coming soon...
+[View Live Demo](https://unit-converter-sm.netlify.app/)
 
 ## 📂 Installation
 
